@@ -1,4 +1,4 @@
-x`# 📘 AssignmentHub
+# 📘 AssignmentHub
 
 **MERN Stack-Based Assignment Submission & Verification System**  
 *Developed for Cloud Computing (BCS601) – VI Semester*  
@@ -8,14 +8,14 @@ x`# 📘 AssignmentHub
 
 ## 📑 Table of Contents
 
-| Section               | Description                                      |
-|-----------------------|------------------------------------------------|
-| [🚀 Project Overview](#project-overview)       | Brief introduction and purpose of the project  |
-| [🖼️ Results](#results)                        | Screenshots showcasing the app’s main pages    |
-| [✨ Key Features](#key-features)              | Highlight of important functionalities          |
-| [🛠️ Technology Stack](#technology-stack)      | Tools and technologies used                      |
-| [📂 Folder Structure](#folder-structure)       | Organization of project files and directories   |
-| [⚙️ Installation & Setup Guide](#installation--setup-guide) | Step-by-step guide to run the project locally    |
+| Section | Description |
+|--------|-------------|
+| [🚀 Project Overview](#project-overview) | Brief introduction and purpose of the project |
+| [🖼️ Results](#results) | Screenshots showcasing the app’s main pages |
+| [✨ Key Features](#key-features) | Highlight of important functionalities |
+| [🔧 Technology Stack](#technology-stack) | Tools and technologies used |
+| [📁 Folder Structure](#folder-structure) | Organization of project files and directories |
+| [🧪 Installation & Setup Guide](#installation--setup-guide) | Step-by-step guide to run the project locally |
 
 ---
 
@@ -54,7 +54,7 @@ x`# 📘 AssignmentHub
 
 ---
 
-## 🚀 Key Features
+## ✨ Key Features
 
 ### 👨‍🎓 Student Module
 
@@ -81,19 +81,19 @@ x`# 📘 AssignmentHub
 
 ### Frontend
 
-- React.js (SPA framework)  
-- TailwindCSS (Utility-first CSS framework)  
-- React Router (Routing management)  
-- Axios (API communication)  
-- React Toastify (Notification system)  
+- React.js  
+- TailwindCSS  
+- React Router  
+- Axios  
+- React Toastify  
 
 ### Backend
 
-- Node.js & Express.js (Server & API framework)  
-- MongoDB with Mongoose (Database & ORM)  
-- JWT (Secure authentication tokens)  
-- Bcrypt (Password hashing)  
-- Multer (File upload handling for PDFs)  
+- Node.js & Express.js  
+- MongoDB with Mongoose  
+- JWT  
+- Bcrypt  
+- Multer  
 
 ---
 
@@ -122,6 +122,7 @@ AssignmentHub/
 ├── package.json             # Project metadata & dependencies
 └── README.md                # Project documentation (this file)
 
+```
 ## 🧪 Installation & Setup Guide
 
 Follow these steps to install and run **AssignmentHub** locally.
