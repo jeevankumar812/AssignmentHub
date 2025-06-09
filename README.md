@@ -1,88 +1,78 @@
-## 📘 AssignmentHub</h1>
+# 📘 AssignmentHub
 
-## MERN Stack-Based Assignment Submission & Verification System
-  Developed for <strong>Cloud Computing (BCS601)</strong> – VI Semester <br />
-  Built by <strong>K Jeevan Kumar</strong> (USN: 4AL22CS067)
-
-
-## 📌 Project Overview
-
-**AssignmentHub** is a simple and efficient web application built using the **MERN Stack** that allows students to submit assignments and faculty members to verify those submissions.
-
-The system ensures seamless communication between students and faculty by allowing:
-- 🧑‍🎓 Students to upload their assignment PDFs
-- 👩‍🏫 Faculty to review, verify, or hold assignments and track completion counts
-
-> 🎯 Focus: Assignment flow management for **Cloud Computing (BCS601)**  
-> 🧾 Files: PDF uploads only  
-> 👥 Users: Student & Faculty modules
+**MERN Stack-Based Assignment Submission & Verification System**  
+*Developed for Cloud Computing (BCS601) – VI Semester*  
+*Built by K Jeevan Kumar (USN: 4AL22CS067)*
 
 ---
 
-## 🖼️ Screenshots
+## 📌 Project Overview
 
-| Page | Preview |
-|------|---------|
-| Student Registration | ![Student Register](./client/src/assets/screenshots/student-register.png) |
-| Upload Assignment | ![Upload Assignment](./client/src/assets/screenshots/assignment-upload.png) |
-| Faculty Login | ![Faculty Login](./client/src/assets/screenshots/faculty-login.png) |
-| Faculty Dashboard | ![Faculty Dashboard](./client/src/assets/screenshots/faculty-dashboard.png) |
+**AssignmentHub** is a robust and intuitive web application designed using the **MERN stack** to facilitate seamless assignment management between students and faculty.
+
+- 🧑‍🎓 **Students** can securely register and upload assignment PDFs related to **Cloud Computing (BCS601)**.
+- 👩‍🏫 **Faculty** members can log in to review, verify, or hold submissions, and track the number of completed assignments in real-time.
+
+> This system improves communication and transparency during assignment evaluation while ensuring streamlined workflows.
+
+---
+
+## 🖼️ Visual Walkthrough
+
+| Page                  | Preview                                                      |
+|-----------------------|--------------------------------------------------------------|
+| Student Registration  | ![Student Register](./client/src/assets/screenshots/student-register.png) |
+| Assignment Upload     | ![Upload Assignment](./client/src/assets/screenshots/assignment-upload.png) |
+| Faculty Login         | ![Faculty Login](./client/src/assets/screenshots/faculty-login.png) |
+| Faculty Dashboard     | ![Faculty Dashboard](./client/src/assets/screenshots/faculty-dashboard.png) |
 
 ---
 
 ## 📑 Table of Contents
 
-- [📌 Project Overview](#-project-overview)
-- [🖼️ Screenshots](#-screenshots)
-- [🚀 Features](#-features)
-- [🔧 Tech Stack](#-tech-stack)
-- [📁 Folder Structure](#-folder-structure)
-- [⚙️ Installation & Run Guide](#️-installation--run-guide)
-
+- [Project Overview](#-project-overview)  
+- [Visual Walkthrough](#-visual-walkthrough)  
+- [Key Features](#-key-features)  
+- [Technology Stack](#-technology-stack)  
+- [Folder Structure](#-folder-structure)  
+- [Installation & Setup Guide](#-installation--setup-guide)  
 
 ---
 
-## 🚀 Features
+## 🚀 Key Features
 
 ### 👨‍🎓 Student Module
 
-- Register & login using **USN**, **Name**, and **Password**
-- Upload a single assignment file for **BCS601 (Cloud Computing)**
-- View status of the assignment:  
-  - 🕒 Pending  
-  - ✅ Completed  
-  - ⏸️ Held
+- **Register & Login:** Secure signup/login with USN, name, and password  
+- **Assignment Upload:** Upload a single PDF file for **Cloud Computing (BCS601)**  
+- **Status Tracking:** Monitor assignment status as Pending, Completed, or Held
 
 ### 👩‍🏫 Faculty Module
 
-- Login with secure subject password
-- View all uploaded assignments
-- Preview submitted PDF files
-- Mark assignments as:  
-  - ✅ Completed  
-  - ⏸️ Hold (rejected or needs resubmission)
-- View live count of completed submissions
+- **Secure Login:** Faculty access via a predefined subject password  
+- **View Submissions:** See all student uploads with PDF preview support  
+- **Assignment Verification:** Mark assignments as Completed or Held (for rework)  
+- **Live Stats:** Real-time count of completed assignments for tracking progress  
 
 ---
 
-## 🔧 Tech Stack
+## 🔧 Technology Stack
 
 ### Frontend
 
-- React.js  
-- TailwindCSS  
-- React Router  
-- Axios  
-- React Toastify
+- React.js (SPA framework)  
+- TailwindCSS (Utility-first CSS framework)  
+- React Router (Routing management)  
+- Axios (API communication)  
+- React Toastify (Notification system)  
 
 ### Backend
 
-- Node.js  
-- Express.js  
-- MongoDB (Mongoose)  
-- JWT for authentication  
-- Bcrypt for password encryption  
-- Multer for file uploads (PDF)
+- Node.js & Express.js (Server & API framework)  
+- MongoDB with Mongoose (Database & ORM)  
+- JWT (Secure authentication tokens)  
+- Bcrypt (Password hashing)  
+- Multer (File upload handling for PDFs)  
 
 ---
 
@@ -90,27 +80,27 @@ The system ensures seamless communication between students and faculty by allowi
 
 ```bash
 AssignmentHub/
-├── client/
+├── client/                  # React frontend application
 │   ├── src/
-│   │   ├── pages/
-│   │   ├── components/
-│   │   ├── services/
-│   │   ├── context/
-│   │   └── assets/screenshots/
-│   └── public/
+│   │   ├── pages/           # All React pages (Student, Faculty, etc.)
+│   │   ├── components/      # Reusable UI components
+│   │   ├── services/        # API request handlers
+│   │   ├── context/         # React context for global state
+│   │   └── assets/screenshots/  # Project screenshots for docs
+│   └── public/              # Static public files
 │
-├── server/
-│   ├── models/
-│   ├── routes/
-│   ├── controllers/
-│   ├── middleware/
-│   ├── uploads/         # Stores uploaded PDFs
-│   └── config/
+├── server/                  # Backend server code
+│   ├── models/              # Mongoose schema models
+│   ├── routes/              # API route definitions
+│   ├── controllers/         # Route handlers & business logic
+│   ├── middleware/          # Middleware (auth, file upload, etc.)
+│   ├── uploads/             # Stores uploaded assignment PDFs
+│   └── config/              # Configurations & environment
 │
-├── .env
-├── package.json
-└── README.md
-```
+├── .env                     # Environment variables (not committed)
+├── package.json             # Project metadata & dependencies
+└── README.md                # Project documentation (this file)
+
 ## 🧪 Installation & Setup Guide
 
 Follow these steps to install and run **AssignmentHub** locally.
