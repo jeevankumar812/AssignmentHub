@@ -1,4 +1,4 @@
-# 📘 AssignmentHub
+x`# 📘 AssignmentHub
 
 **MERN Stack-Based Assignment Submission & Verification System**  
 *Developed for Cloud Computing (BCS601) – VI Semester*  
@@ -39,20 +39,26 @@
 
 ---
 
-## 🚀 Key Features
+## 🚀 Features
 
 ### 👨‍🎓 Student Module
 
-- **Register & Login:** Secure signup/login with USN, name, and password  
-- **Assignment Upload:** Upload a single PDF file for **Cloud Computing (BCS601)**  
-- **Status Tracking:** Monitor assignment status as Pending, Completed, or Held
+- Register & login using **USN**, **Name**, and **Password**
+- Upload a single assignment file for **BCS601 (Cloud Computing)**
+- View status of the assignment:  
+  - 🕒 Pending  
+  - ✅ Completed  
+  - ⏸️ Held
 
 ### 👩‍🏫 Faculty Module
 
-- **Secure Login:** Faculty access via a predefined subject password  
-- **View Submissions:** See all student uploads with PDF preview support  
-- **Assignment Verification:** Mark assignments as Completed or Held (for rework)  
-- **Live Stats:** Real-time count of completed assignments for tracking progress  
+- Login with secure subject password
+- View all uploaded assignments
+- Preview submitted PDF files
+- Mark assignments as:  
+  - ✅ Completed  
+  - ⏸️ Hold (rejected or needs resubmission)
+- View live count of completed submissions
 
 ---
 
