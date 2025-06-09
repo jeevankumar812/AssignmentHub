@@ -6,6 +6,17 @@ x`# 📘 AssignmentHub
 
 ---
 
+## 📑 Table of Contents
+
+| Section               | Description                                      |
+|-----------------------|------------------------------------------------|
+| [🚀 Project Overview](#-project-overview)       | Brief introduction and purpose of the project  |
+| [🖼️ Results](#-results)                        | Screenshots showcasing the app’s main pages    |
+| [✨ Key Features](#-key-features)              | Highlight of important functionalities          |
+| [🛠️ Technology Stack](#-technology-stack)      | Tools and technologies used                      |
+| [📂 Folder Structure](#-folder-structure)       | Organization of project files and directories   |
+| [⚙️ Installation & Setup Guide](#-installation--setup-guide) | Step-by-step guide to run the project locally    |
+
 ## 📌 Project Overview
 
 **AssignmentHub** is a robust and intuitive web application designed using the **MERN stack** to facilitate seamless assignment management between students and faculty.
@@ -17,7 +28,7 @@ x`# 📘 AssignmentHub
 
 ---
 
-## 🖼️ Result
+## 🖼️ Results
 
 ### 🏠 Home Page
 <img src="./frontend/src/assets/home_p.png" alt="Home Page" width="700"/>
@@ -40,18 +51,9 @@ x`# 📘 AssignmentHub
 <p align="left"><i>Dashboard displaying submitted assignments and their verification status for faculty.</i></p>
 
 
-## 📑 Table of Contents
 
-- [Project Overview](#-project-overview)  
-- [Visual Walkthrough](#-visual-walkthrough)  
-- [Key Features](#-key-features)  
-- [Technology Stack](#-technology-stack)  
-- [Folder Structure](#-folder-structure)  
-- [Installation & Setup Guide](#-installation--setup-guide)  
 
----
-
-## 🚀 Features
+## 🚀 Key Features
 
 ### 👨‍🎓 Student Module
 
