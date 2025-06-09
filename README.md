@@ -38,9 +38,7 @@ The system ensures seamless communication between students and faculty by allowi
 - [🔧 Tech Stack](#-tech-stack)
 - [📁 Folder Structure](#-folder-structure)
 - [⚙️ Installation & Run Guide](#️-installation--run-guide)
-- [📡 API Endpoints](#-api-endpoints)
-- [👨‍💻 Author](#-author)
-- [📄 License](#-license)
+
 
 ---
 
@@ -113,3 +111,30 @@ AssignmentHub/
 ├── package.json
 └── README.md
 ```
+## 🧪 Installation & Setup Guide
+
+Follow these steps to install and run **AssignmentHub** locally.
+
+---
+
+### ⚙️ Prerequisites
+
+- Node.js (v14+)
+- MongoDB (local or cloud)
+- Git
+
+---
+
+### 📥 Step 1 : Clone the Repository
+
+```bash
+git clone https://github.com/your-username/AssignmentHub.git
+cd AssignmentHub
+```
+
+### 📥 Step 2 : Backend Setup
+```bash
+cd server
+npm install
+```
+### 📥 Step 3 : Setup Environment Variables
