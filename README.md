@@ -10,14 +10,16 @@ x`# 📘 AssignmentHub
 
 | Section               | Description                                      |
 |-----------------------|------------------------------------------------|
-| [🚀 Project Overview](#-project-overview)       | Brief introduction and purpose of the project  |
-| [🖼️ Results](#-results)                        | Screenshots showcasing the app’s main pages    |
-| [✨ Key Features](#-key-features)              | Highlight of important functionalities          |
-| [🛠️ Technology Stack](#-technology-stack)      | Tools and technologies used                      |
-| [📂 Folder Structure](#-folder-structure)       | Organization of project files and directories   |
-| [⚙️ Installation & Setup Guide](#-installation--setup-guide) | Step-by-step guide to run the project locally    |
+| [🚀 Project Overview](#project-overview)       | Brief introduction and purpose of the project  |
+| [🖼️ Results](#results)                        | Screenshots showcasing the app’s main pages    |
+| [✨ Key Features](#key-features)              | Highlight of important functionalities          |
+| [🛠️ Technology Stack](#technology-stack)      | Tools and technologies used                      |
+| [📂 Folder Structure](#folder-structure)       | Organization of project files and directories   |
+| [⚙️ Installation & Setup Guide](#installation--setup-guide) | Step-by-step guide to run the project locally    |
 
-## 📌 Project Overview
+---
+
+## 🚀 Project Overview
 
 **AssignmentHub** is a robust and intuitive web application designed using the **MERN stack** to facilitate seamless assignment management between students and faculty.
 
@@ -50,8 +52,7 @@ x`# 📘 AssignmentHub
 <img src="./frontend/src/assets/facu.png" alt="Faculty Dashboard" width="700"/>
 <p align="left"><i>Dashboard displaying submitted assignments and their verification status for faculty.</i></p>
 
-
-
+---
 
 ## 🚀 Key Features
 
