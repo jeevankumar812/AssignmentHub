@@ -19,12 +19,23 @@ x`# 📘 AssignmentHub
 
 ## 🖼️ Visual Walkthrough
 
-| Page                  | Preview                                                      |
-|-----------------------|--------------------------------------------------------------|
-| Student Registration  | ![Student Register](./client/src/assets/screenshots/student-register.png) |
-| Assignment Upload     | ![Upload Assignment](./client/src/assets/screenshots/assignment-upload.png) |
-| Faculty Login         | ![Faculty Login](./client/src/assets/screenshots/faculty-login.png) |
-| Faculty Dashboard     | ![Faculty Dashboard](./client/src/assets/screenshots/faculty-dashboard.png) |
+### 🏠 Home Page
+<img src=".frontend/src/assets/home.png" alt="Home Page" width="700"/>
+
+### ➕ Add Marks Page
+<img src="screenshots/add.png" alt="Add Marks Page" width="700"/>
+
+### 🆕 Update Details
+<img src="screenshots/up_date.png" alt="Search Student" width="700"/>
+
+### ❌ Delete Details
+<img src="screenshots/delete.png" alt="Search Student" width="700"/>
+
+### 📋 Display Marks
+<img src="screenshots/display.png" alt="Display Marks" width="700"/>
+
+### Reports
+<img src="screenshots/report.png" alt="Search Student" width="700"/>
 
 ---
 
