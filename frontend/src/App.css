@@ -1,0 +1,77 @@
+/* App.css */
+
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #f4f7fc;
+  color: #333;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* App Container */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+/* Header */
+.app-header {
+  background-color: aqua;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.app-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Main Content */
+.app-content {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Footer */
+.app-footer {
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.875rem;
+}
+
+/* Links in Footer */
+.app-footer p {
+  margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .app-title {
+    font-size: 1.5rem;
+  }
+
+  .app-header,
+  .app-footer {
+    padding: 15px;
+  }
+
+  .app-content {
+    padding: 10px;
+  }
+}
+

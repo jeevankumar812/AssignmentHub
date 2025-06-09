@@ -1,0 +1,344 @@
+/* StudentLogin.css */
+
+/* Global reset for login page */
+.student-login-container * {
+  box-sizing: border-box;
+}
+
+/* Main container */
+.student-login-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Background animation */
+.student-login-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    radial-gradient(circle at 20% 80%, rgba(120, 119, 198, 0.3) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(255, 255, 255, 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 40% 40%, rgba(120, 119, 198, 0.2) 0%, transparent 50%);
+  animation: backgroundFloat 6s ease-in-out infinite alternate;
+}
+
+@keyframes backgroundFloat {
+  0% { transform: translateY(0px) rotate(0deg); }
+  100% { transform: translateY(-10px) rotate(1deg); }
+}
+
+/* Login form container */
+.student-login-form {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(20px);
+  border-radius: 24px;
+  box-shadow: 
+    0 25px 50px rgba(0, 0, 0, 0.15),
+    0 0 0 1px rgba(255, 255, 255, 0.1);
+  padding: 48px 40px;
+  width: 100%;
+  max-width: 480px;
+  position: relative;
+  z-index: 1;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Header section */
+.student-login-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.student-login-title {
+  color: #2d3748;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0 0 8px 0;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.student-login-subtitle {
+  color: #718096;
+  font-size: 1.1rem;
+  margin: 0;
+  font-weight: 400;
+}
+
+/* Form styling */
+.student-form {
+  width: 100%;
+}
+
+/* Form group */
+.student-form-group {
+  margin-bottom: 24px;
+  position: relative;
+}
+
+/* Label styling */
+.student-form-label {
+  display: block;
+  color: #4a5568;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Input styling */
+.student-form-input {
+  width: 100%;
+  padding: 16px 20px;
+  border: 2px solid #e2e8f0;
+  border-radius: 16px;
+  font-size: 1rem;
+  background-color: #f7fafc;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  color: #2d3748;
+  font-weight: 500;
+}
+
+.student-form-input::placeholder {
+  color: #a0aec0;
+  font-weight: 400;
+}
+
+.student-form-input:focus {
+  outline: none;
+  border-color: #667eea;
+  background-color: #ffffff;
+  box-shadow: 
+    0 0 0 3px rgba(102, 126, 234, 0.1),
+    0 4px 12px rgba(102, 126, 234, 0.15);
+  transform: translateY(-2px);
+}
+
+.student-form-input:hover:not(:focus) {
+  border-color: #cbd5e0;
+  background-color: #ffffff;
+}
+
+.student-form-input:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  background-color: #f1f5f9;
+}
+
+/* Error message */
+.student-error-message {
+  background: linear-gradient(135deg, #fed7e2 0%, #fbb6ce 100%);
+  color: #97266d;
+  padding: 12px 16px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid #f687b3;
+}
+
+.error-icon {
+  font-size: 1rem;
+}
+
+/* Login button */
+.student-login-button {
+  width: 100%;
+  padding: 16px 24px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  border-radius: 16px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 8px;
+  position: relative;
+  overflow: hidden;
+}
+
+.student-login-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.5s;
+}
+
+.student-login-button:hover::before {
+  left: 100%;
+}
+
+.student-login-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 
+    0 12px 32px rgba(102, 126, 234, 0.4),
+    0 0 0 1px rgba(255, 255, 255, 0.1);
+}
+
+.student-login-button:active {
+  transform: translateY(-1px);
+}
+
+.student-login-button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* Loading state */
+.student-login-button.loading {
+  background: linear-gradient(135deg, #a0aec0 0%, #718096 100%);
+}
+
+.loading-spinner {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  border-top-color: transparent;
+  animation: spin 1s linear infinite;
+  margin-right: 8px;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* Footer section */
+.student-login-footer {
+  margin-top: 32px;
+  text-align: center;
+  padding-top: 24px;
+  border-top: 1px solid #e2e8f0;
+}
+
+.forgot-password {
+  margin: 0 0 12px 0;
+}
+
+.contact-admin {
+  margin: 0;
+}
+
+.student-login-footer a {
+  color: #667eea;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
+
+.student-login-footer a:hover {
+  color: #764ba2;
+  text-decoration: underline;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .student-login-container {
+    padding: 16px;
+  }
+  
+  .student-login-form {
+    padding: 32px 24px;
+    border-radius: 20px;
+  }
+  
+  .student-login-title {
+    font-size: 2rem;
+  }
+  
+  .student-login-subtitle {
+    font-size: 1rem;
+  }
+  
+  .student-form-input {
+    padding: 14px 16px;
+    font-size: 16px; /* Prevents zoom on iOS */
+  }
+  
+  .student-login-button {
+    padding: 14px 20px;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .student-login-form {
+    padding: 24px 20px;
+  }
+  
+  .student-login-title {
+    font-size: 1.8rem;
+  }
+  
+  .student-form-group {
+    margin-bottom: 20px;
+  }
+}
+
+/* Accessibility improvements */
+.student-login-button:focus {
+  outline: 2px solid #667eea;
+  outline-offset: 2px;
+}
+
+.student-form-input:focus {
+  outline: 2px solid transparent;
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  .student-login-form {
+    background: #ffffff;
+    border: 2px solid #000000;
+  }
+  
+  .student-form-input {
+    border-color: #000000;
+  }
+  
+  .student-login-button {
+    background: #000000;
+    border: 2px solid #000000;
+  }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  .student-login-container::before,
+  .loading-spinner,
+  .student-login-button::before {
+    animation: none;
+  }
+  
+  .student-form-input,
+  .student-login-button {
+    transition: none;
+  }
+}
