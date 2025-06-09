@@ -48,7 +48,7 @@ x`# 📘 AssignmentHub
 - View status of the assignment:  
   - 🕒 Pending  
   - ✅ Completed  
-  - ⏸️ Held
+  - ⏸️ Hold
 
 ### 👩‍🏫 Faculty Module
 
