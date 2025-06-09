@@ -10,12 +10,12 @@
 
 | Section | Description |
 |--------|-------------|
-| [🚀 Project Overview](#project-overview) | Brief introduction and purpose of the project |
-| [🖼️ Results](#results) | Screenshots showcasing the app’s main pages |
-| [✨ Key Features](#key-features) | Highlight of important functionalities |
-| [🔧 Technology Stack](#technology-stack) | Tools and technologies used |
-| [📁 Folder Structure](#folder-structure) | Organization of project files and directories |
-| [🧪 Installation & Setup Guide](#installation--setup-guide) | Step-by-step guide to run the project locally |
+| [🚀 Project Overview](#-project-overview) | Brief introduction and purpose of the project |
+| [🖼️ Results](#-results) | Screenshots showcasing the app’s main pages |
+| [✨ Key Features](#-key-features) | Highlight of important functionalities |
+| [🔧 Technology Stack](#-technology-stack) | Tools and technologies used |
+| [📁 Folder Structure](#-folder-structure) | Organization of project files and directories |
+| [🧪 Installation & Setup Guide](#-installation--setup-guide) | Step-by-step guide to run the project locally |
 
 ---
 
@@ -101,26 +101,26 @@
 
 ```bash
 AssignmentHub/
-├── client/                  # React frontend application
+├── client/                      # React frontend application
 │   ├── src/
-│   │   ├── pages/           # All React pages (Student, Faculty, etc.)
-│   │   ├── components/      # Reusable UI components
-│   │   ├── services/        # API request handlers
-│   │   ├── context/         # React context for global state
-│   │   └── assets/screenshots/  # Project screenshots for docs
-│   └── public/              # Static public files
+│   │   ├── pages/              # All React pages (Student, Faculty, etc.)
+│   │   ├── components/         # Reusable UI components
+│   │   ├── services/           # API request handlers
+│   │   ├── context/            # React context for global state
+│   │   └── assets/screenshots/ # Project screenshots for docs
+│   └── public/                 # Static public files
 │
-├── server/                  # Backend server code
-│   ├── models/              # Mongoose schema models
-│   ├── routes/              # API route definitions
-│   ├── controllers/         # Route handlers & business logic
-│   ├── middleware/          # Middleware (auth, file upload, etc.)
-│   ├── uploads/             # Stores uploaded assignment PDFs
-│   └── config/              # Configurations & environment
+├── server/                     # Backend server code
+│   ├── models/                 # Mongoose schema models
+│   ├── routes/                 # API route definitions
+│   ├── controllers/            # Route handlers & business logic
+│   ├── middleware/             # Middleware (auth, file upload, etc.)
+│   ├── uploads/                # Stores uploaded assignment PDFs
+│   └── config/                 # Configurations & environment
 │
-├── .env                     # Environment variables (not committed)
-├── package.json             # Project metadata & dependencies
-└── README.md                # Project documentation (this file)
+├── .env                        # Environment variables (not committed)
+├── package.json                # Project metadata & dependencies
+└── README.md                   # Project documentation (this file)
 
 ```
 ## 🧪 Installation & Setup Guide
