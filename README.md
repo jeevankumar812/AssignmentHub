@@ -21,23 +21,23 @@ x`# 📘 AssignmentHub
 
 ### 🏠 Home Page
 <img src="./frontend/src/assets/home_p.png" alt="Home Page" width="700"/>
-<p align="center"><i>The landing page providing access to student and faculty sections.</i></p>
+<p align="left"><i>The landing page providing access to student and faculty sections.</i></p>
 
 ### 👤 Student Registration
 <img src="./frontend/src/assets/reg2.png" alt="Student Registration" width="700"/>
-<p align="center"><i>Student registration form where users can sign up using their USN and other details.</i></p>
+<p align="left"><i>Student registration form where users can sign up using their USN and other details.</i></p>
 
 ### 📤 Assignment Upload
 <img src="./frontend/src/assets/upload.png" alt="Assignment Upload" width="700"/>
-<p align="center"><i>Students can upload their assignments for the selected subject through this interface.</i></p>
+<p align="left"><i>Students can upload their assignments for the selected subject through this interface.</i></p>
 
 ### 🔐 Faculty Login
 <img src="./frontend/src/assets/facu2.png" alt="Faculty Login" width="700"/>
-<p align="center"><i>Faculty members log in securely to manage and verify student submissions.</i></p>
+<p align="left"><i>Faculty members log in securely to manage and verify student submissions.</i></p>
 
 ### 📊 Faculty Dashboard
 <img src="./frontend/src/assets/facu.png" alt="Faculty Dashboard" width="700"/>
-<p align="center"><i>Dashboard displaying submitted assignments and their verification status for faculty.</i></p>
+<p align="left"><i>Dashboard displaying submitted assignments and their verification status for faculty.</i></p>
 
 
 ## 📑 Table of Contents
