@@ -23,16 +23,16 @@ x`# 📘 AssignmentHub
 <img src="./frontend/src/assets/home_p.png" alt="Home Page" width="700"/>
 
 ### 👤 Student Registration
-<img src="./frontend/src/assets/screenshots/reg2.png" alt="Student Registration" width="700"/>
+<img src="./frontend/src/assets/reg2.png" alt="Student Registration" width="700"/>
 
 ### 📤 Assignment Upload
-<img src="./frontend/src/assets/screenshots/upload.png" alt="Assignment Upload" width="700"/>
+<img src="./frontend/src/assets/upload.png" alt="Assignment Upload" width="700"/>
 
 ### 🔐 Faculty Login
-<img src="./frontend/src/assets/screenshots/facu.png" alt="Faculty Login" width="700"/>
+<img src="./frontend/src/assets/facu.png" alt="Faculty Login" width="700"/>
 
 ### 📊 Faculty Dashboard
-<img src="./frontend/src/assets/screenshots/facu.png" alt="Faculty Dashboard" width="700"/>
+<img src="./frontend/src/assets/facu.png" alt="Faculty Dashboard" width="700"/>
 
 ---
 
