@@ -60,7 +60,7 @@ The system ensures seamless communication between students and faculty by allowi
 - Preview submitted PDF files
 - Mark assignments as:  
   - ✅ Completed  
-  - ⏸️ Held (rejected or needs resubmission)
+  - ⏸️ Hold (rejected or needs resubmission)
 - View live count of completed submissions
 
 ---
