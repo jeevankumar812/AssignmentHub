@@ -128,13 +128,33 @@ Follow these steps to install and run **AssignmentHub** locally.
 ### 📥 Step 1 : Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/AssignmentHub.git
+git clone https://github.com/jeevankumar812/AssignmentHub.git
 cd AssignmentHub
 ```
 
 ### 📥 Step 2 : Backend Setup
 ```bash
-cd server
+cd backend
 npm install
 ```
 ### 📥 Step 3 : Setup Environment Variables
+```bash
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret_key
+FACULTY_PASSWORD=your_faculty_password
+```
+
+### 📥 Step 4 : Start Backend Server
+```bash
+npm run server.js
+```
+**Backend will run at http://localhost:5000**
+
+### 📥 Step 5 : Frontend Setup
+```bash
+cd client
+npm install
+npm run dev
+```
+**Frontend will run at http://localhost:5173**
+---
