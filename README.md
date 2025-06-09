@@ -1,37 +1,49 @@
-# 📘 AssignmentHub – MERN Stack Project
----
+<h1 align="center">📘 AssignmentHub</h1>
 
-## 🧭 Project Overview
-
-**AssignmentHub** streamlines the assignment submission and verification process within academic institutions. It enables **students** to register and submit assignments, while **faculty** can validate submissions, track progress, and ensure students meet submission criteria before generating a "No Due" certificate.
-
-Developed by **K Jeevan Kumar** as a 6th semester project for **Cloud Computing (BCS601)**.
-
----
-
-## 📸 Project Screenshots
-
-> Screenshots should be stored inside `client/src/assets/screenshots/`
-
-| Description                   | Screenshot Preview                                |
-|------------------------------|---------------------------------------------------|
-| Student Registration Page    | ![Student Register](./client/src/assets/screenshots/student-register.png) |
-| Assignment Upload Interface  | ![Upload Assignment](./client/src/assets/screenshots/assignment-upload.png) |
-| Faculty Login Page           | ![Faculty Login](./client/src/assets/screenshots/faculty-login.png) |
-| Faculty Dashboard            | ![Faculty Dashboard](./client/src/assets/screenshots/faculty-dashboard.png) |
+<p align="center">
+  A MERN Stack-Based Assignment Submission & Verification System <br />
+  Developed for <strong>Cloud Computing (BCS601)</strong> – VI Semester <br />
+  Built by <strong>K Jeevan Kumar</strong> (USN: 4AL22CS067)
+</p>
 
 ---
 
-## 📌 Table of Contents
+## 📌 Project Overview
 
-| Section                          | Link                                      |
-|----------------------------------|-------------------------------------------|
-| 🚀 Features                      | [Click here](#-features)                  |
-| 🔧 Technologies Used             | [Click here](#-technologies-used)         |
-| 🏗️ Folder Structure             | [Click here](#-folder-structure)          |
-| 🧪 How to Run Locally            | [Click here](#-how-to-run-locally)        |
-| 📄 API Routes Overview           | [Click here](#-api-endpoints-overview)    |
-| 👨‍💻 Author                      | [Click here](#-author)                    |
+**AssignmentHub** is a simple and efficient web application built using the **MERN Stack** that allows students to submit assignments and faculty members to verify those submissions.
+
+The system ensures seamless communication between students and faculty by allowing:
+- 🧑‍🎓 Students to upload their assignment PDFs
+- 👩‍🏫 Faculty to review, verify, or hold assignments and track completion counts
+
+> 🎯 Focus: Assignment flow management for **Cloud Computing (BCS601)**  
+> 🧾 Files: PDF uploads only  
+> 👥 Users: Student & Faculty modules
+
+---
+
+## 🖼️ Screenshots
+
+| Page | Preview |
+|------|---------|
+| Student Registration | ![Student Register](./client/src/assets/screenshots/student-register.png) |
+| Upload Assignment | ![Upload Assignment](./client/src/assets/screenshots/assignment-upload.png) |
+| Faculty Login | ![Faculty Login](./client/src/assets/screenshots/faculty-login.png) |
+| Faculty Dashboard | ![Faculty Dashboard](./client/src/assets/screenshots/faculty-dashboard.png) |
+
+---
+
+## 📑 Table of Contents
+
+- [📌 Project Overview](#-project-overview)
+- [🖼️ Screenshots](#-screenshots)
+- [🚀 Features](#-features)
+- [🔧 Tech Stack](#-tech-stack)
+- [📁 Folder Structure](#-folder-structure)
+- [⚙️ Installation & Run Guide](#️-installation--run-guide)
+- [📡 API Endpoints](#-api-endpoints)
+- [👨‍💻 Author](#-author)
+- [📄 License](#-license)
 
 ---
 
@@ -39,42 +51,68 @@ Developed by **K Jeevan Kumar** as a 6th semester project for **Cloud Computing 
 
 ### 👨‍🎓 Student Module
 
-- Register/login using **USN**, **name**, and **password**
-- Upload assignments for **Cloud Computing (BCS601)** only
-- View submission status: *Pending*, *Held*, or *Completed*
-- Download No Due Certificate once all tasks are accepted
+- Register & login using **USN**, **Name**, and **Password**
+- Upload a single assignment file for **BCS601 (Cloud Computing)**
+- View status of the assignment:  
+  - 🕒 Pending  
+  - ✅ Completed  
+  - ⏸️ Held
 
 ### 👩‍🏫 Faculty Module
 
-- Login using pre-configured subject credentials
-- View list of submitted assignments
-- Verify submissions:
-  - ✅ **Mark as Completed**
-  - ⏸️ **Hold Submission** if incorrect
-- View real-time **assignment completion count**
+- Login with secure subject password
+- View all uploaded assignments
+- Preview submitted PDF files
+- Mark assignments as:  
+  - ✅ Completed  
+  - ⏸️ Held (rejected or needs resubmission)
+- View live count of completed submissions
 
 ---
 
-## 🔧 Technologies Used
+## 🔧 Tech Stack
 
 ### Frontend
 
-- React.js
-- TailwindCSS
-- React Router
-- Axios
-- Toastify
+- React.js  
+- TailwindCSS  
+- React Router  
+- Axios  
+- React Toastify
 
 ### Backend
 
-- Node.js
-- Express.js
-- MongoDB (Mongoose)
-- JWT Authentication
-- Multer (File Upload)
-- Bcrypt (Password Hashing)
+- Node.js  
+- Express.js  
+- MongoDB (Mongoose)  
+- JWT for authentication  
+- Bcrypt for password encryption  
+- Multer for file uploads (PDF)
 
 ---
 
-## 🏗️ Folder Structure
+## 📁 Folder Structure
 
+```bash
+AssignmentHub/
+├── client/
+│   ├── src/
+│   │   ├── pages/
+│   │   ├── components/
+│   │   ├── services/
+│   │   ├── context/
+│   │   └── assets/screenshots/
+│   └── public/
+│
+├── server/
+│   ├── models/
+│   ├── routes/
+│   ├── controllers/
+│   ├── middleware/
+│   ├── uploads/         # Stores uploaded PDFs
+│   └── config/
+│
+├── .env
+├── package.json
+└── README.md
+```
