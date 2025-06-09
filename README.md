@@ -20,7 +20,7 @@ x`# 📘 AssignmentHub
 ## 🖼️ Visual Walkthrough
 
 ### 🏠 Home Page
-<img src=".frontend/src/assets/home.png" alt="Home Page" width="700"/>
+<img src=".frontend/src/assets/home_p.png" alt="Home Page" width="700"/>
 
 ### ➕ Add Marks Page
 <img src="screenshots/add.png" alt="Add Marks Page" width="700"/>
