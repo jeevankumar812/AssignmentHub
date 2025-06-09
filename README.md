@@ -1,11 +1,8 @@
-<h1 align="center">📘 AssignmentHub</h1>
+# 📘 AssignmentHub
 
-<p align="center">
-  A MERN Stack-Based Assignment Submission & Verification System <br />
-  Developed for <strong>Cloud Computing (BCS601)</strong> – VI Semester <br />
-  Built by <strong>K Jeevan Kumar</strong> (USN: 4AL22CS067)
-</p>
-
+A MERN Stack-Based Assignment Submission & Verification System  
+Developed for **Cloud Computing (BCS601)** – VI Semester  
+Built by **K Jeevan Kumar** (USN: 4AL22CS067)
 ---
 
 ## 📌 Project Overview
